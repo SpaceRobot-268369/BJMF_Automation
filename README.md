@@ -2,6 +2,7 @@
 
 # 声明｜Statement
 
+**This Script should only be used for study purpose**
 **该脚本仅供学习，请合理使用！！！切勿二次传播或用作商业用途！！！若出现任何纠纷，本人概不负责！！！**
 
 # 准备｜Preparation
