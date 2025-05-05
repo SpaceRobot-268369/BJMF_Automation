@@ -15,20 +15,26 @@
 - **Chrome & Chrome Driver** 
 备注：ChromeDriver的版本**必需要和Chrome一致**，并且由于Chrome默认开启了自动升级，所以在Chrome自动更新之后，请从[**此链接**](https://chromedriver.chromium.org)下载对应版本的ChromeDriver。
 
+Note: Chrome version should match with ChromeDriver, since Chrome enables automatic update by default, please download matched ChromeDriver version from here(https://chromedriver.chromium.org).
+
+
 ## 个人建议(仅参考)｜Personal Recommendation & Explanation
 
-- **系统平台**：
-    - **macOS：**个人建议在macOS上部署此项目用于自动化打卡。脚本中需要填写的「Information」板块中，「#」后备注的参考信息都是基于macOS平台给出的。
-    - **Windows：**由于Windows的文件路径比较独特，本人并不清楚应如何填写相关的路径信息，如果你有此需求，你可以检索关键字「Windows+python+文件绝对路径」获取相关信息。理论上，涉及文件路径的内容仅在「Information」板块，如果你通过查阅资料或者有能力搞定路径的问题，在Windows平台上应该也是能使用此脚本自动打卡的。
-    - **Linux：**Linux系统的文件路径设计基本与macOS相同，如果你选择将此脚本部署在Linux上，相信你也有能力解决文件路径填写的问题。不过值得注意的是，此脚本并未设计QQ登录时“风控”要求填写验证码的功能，如果你将其部署在Linux服务器上，有可能会遭遇由于“风控”要求填写验证码继而无法正常登录的情况。所以最妥善的做法是将其部署在自己常用的电脑上。
-- **文件路径：**
+- **系统平台 | Platform**：
+    - macOS: 个人建议在macOS上部署此项目用于自动化打卡。脚本中需要填写的「Information」板块中，「#」后备注的参考信息都是基于macOS平台给出的。
+        - macOS is recommended for this project. Some information may be required to modify in the script. Note: the reference info is based on macOS.
+    - Windows: 由于Windows的文件路径比较独特，本人并不清楚应如何填写相关的路径信息，如果你有此需求，你可以检索关键字「Windows+python+文件绝对路径」获取相关信息。理论上，涉及文件路径的内容仅在「Information」板块，如果你通过查阅资料或者有能力搞定路径的问题，在Windows平台上应该也是能使用此脚本自动打卡的。
+    - Linux：Linux系统的文件路径设计基本与macOS相同，如果你选择将此脚本部署在Linux上，相信你也有能力解决文件路径填写的问题。不过值得注意的是，此脚本并未设计QQ登录时“风控”要求填写验证码的功能，如果你将其部署在Linux服务器上，有可能会遭遇由于“风控”要求填写验证码继而无法正常登录的情况。所以最妥善的做法是将其部署在自己常用的电脑上。
+- 文件路径:
     - 建议文件路径或文件名中不要包含任何的中文或空格和特殊符号，以避免不必要的错误。
+
 
 # 如何使用｜How to Use
 
-## 环境准备
+## 环境准备 | Environment
 
 根据环境要求，分别安装好「**Python3**」&「**Selenium Module**」&「**Chrome & Chrome Driver** 」。macOS和Linux自带「**Crontab**」不必安装，Windows上需要另外安装。
+
 
 ## 班级魔方上的准备工作
 
